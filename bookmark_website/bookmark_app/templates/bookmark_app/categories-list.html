@@ -1,0 +1,12 @@
+{% extends "bookmark_app/base.html" %}
+
+{% comment %} {% load zap_extras %} {% endcomment %}
+
+{% block content %}
+
+    {% for category in categories %}
+        <li> {{ category }} </li>
+    {% endfor %}
+
+    
+{% endblock %}

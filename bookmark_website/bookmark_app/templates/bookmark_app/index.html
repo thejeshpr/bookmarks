@@ -1,0 +1,13 @@
+{% extends "bookmark_app/base.html" %}
+
+{% comment %} {% load zap_extras %} {% endcomment %}
+
+{% block content %}
+
+    {% for bookmark in bookmarks %}
+        <li> {{ bookmark }} </li>
+    {% endfor %}
+
+
+    
+{% endblock %}

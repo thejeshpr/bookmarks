@@ -1,0 +1,9 @@
+Bookmark:
+    - url
+    - title
+    - desc
+    - category
+    - timestamp
+
+Category:
+    - name
